@@ -14,7 +14,7 @@ atom-remote-ftp tool
 
  
 
-Here it is :D 
+Here it is :D
 --------------
 
 
@@ -31,8 +31,8 @@ By this tool you can
 
 5.  and take over the full control of it
 
-  
-This tool is written in [AutoIt 3](https://www.autoitscript.com/)** ** ,
+
+This tool is written in **[AutoIt 3](https://www.autoitscript.com/)** ,
 executable file is available as `atom remoteftp tool.exe` !
 
  
