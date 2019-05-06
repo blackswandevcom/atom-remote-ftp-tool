@@ -1,20 +1,5 @@
 #NoTrayIcon
 #RequireAdmin
-#Region ;**** Directives created by AutoIt3Wrapper_GUI ****
-#AutoIt3Wrapper_Icon=..\..\Work\My Prog\HACK KIT\ICON DIRECTORY\_Icn database\download_from_cloud_filled-512.ico
-#AutoIt3Wrapper_Outfile=atom remoteftp tool.exe
-#AutoIt3Wrapper_Compression=4
-#AutoIt3Wrapper_UseUpx=y
-#AutoIt3Wrapper_Res_Comment=Black Swan Lab atom/remote-ftp package Tool
-#AutoIt3Wrapper_Res_Description=Atom/remote-ftp package tool
-#AutoIt3Wrapper_Res_Fileversion=1.0.0.14
-#AutoIt3Wrapper_Res_Fileversion_AutoIncrement=y
-#AutoIt3Wrapper_Res_ProductName=Black Swan Lab atom/remote-ftp package Tool
-#AutoIt3Wrapper_Res_ProductVersion=1.0.0.0
-#AutoIt3Wrapper_Res_CompanyName=Black Swan Lab
-#AutoIt3Wrapper_Res_LegalCopyright=Copyright (C) Black Swan Lab , All rights reserved.
-#AutoIt3Wrapper_Res_LegalTradeMarks=Black Swan Lab is founded by Amirhosseinhpv
-#EndRegion ;**** Directives created by AutoIt3Wrapper_GUI ****
 #include <MsgBoxConstants.au3>
 #include <Misc.au3>
 #include <ButtonConstants.au3>
@@ -65,7 +50,6 @@ If (IsArray($CmdLine) and $CmdLine[0] <> 0 and $CmdLine[1] <> "") Then
 
 EndIf
 
-#Region ### START Koda GUI section ### Form=F:\Project\Atom FtpConfig\Form1.kxf
 $Form1 = GUICreate("Black Swan Lab atom/remote-ftp package Tool | Programmed by Amirhosseinhpv | Version 1.0.0", 710, 417, -1, -1, -1, BitOR($WS_EX_TOPMOST,$WS_EX_WINDOWEDGE))
 GUISetFont(9,0,0,"Segoe UI")
 $Group1 = GUICtrlCreateGroup(" Template file ", 8, 8, 521, 401)
@@ -99,8 +83,6 @@ GUICtrlSetCursor(-1,4)
 
 GUICtrlCreateGroup("", -99, -99, 1, 1)
 GUISetState(@SW_SHOW)
-#EndRegion ### END Koda GUI section ###
-
 While 1
 	$nMsg = GUIGetMsg()
 	Switch $nMsg
